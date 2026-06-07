@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Scout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="search-panel" aria-label="World Cup player search">
+        <div class="brand-row">
+          <img
+            id="teamFlag"
+            class="flag"
+            src="assets/brazil-flag.svg"
+            alt="Brazil flag"
+          />
+          <div>
+            <p class="eyebrow">WorldCup 2026 MVP</p>
+            <h1>World Scout</h1>
+          </div>
+        </div>
+
+        <label class="field-label" for="teamFilter">Team</label>
+        <select id="teamFilter" aria-label="Choose national team">
+          <option value="brazil">Brazil</option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="argentina">Argentina</option>
+        </select>
+
+        <div class="search-box">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path
+              d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <input
+            id="searchInput"
+            type="search"
+            autocomplete="off"
+            placeholder="Search player name or shirt number"
+          />
+        </div>
+
+        <div class="quick-actions" aria-label="Quick searches">
+          <button class="chip active" type="button" data-query="">All</button>
+          <button class="chip" type="button" data-query="7">#7</button>
+          <button class="chip" type="button" data-query="vini">Vini Jr</button>
+          <button class="chip" type="button" data-query="10">#10</button>
+          <button class="chip" type="button" data-query="goalkeeper">Goalkeepers</button>
+        </div>
+
+        <div class="summary-grid">
+          <div>
+            <span id="playerCount">26</span>
+            <p>players</p>
+          </div>
+          <div>
+            <span id="clubCount">22</span>
+            <p>clubs</p>
+          </div>
+          <div>
+            <span id="resultCount">26</span>
+            <p>matches</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="results-panel" aria-label="Search results">
+        <div class="panel-heading">
+          <div>
+            <p id="teamName" class="eyebrow">Brazil national team</p>
+            <h2>Player directory</h2>
+          </div>
+          <select id="positionFilter" aria-label="Filter by position">
+            <option value="all">All positions</option>
+            <option value="Goalkeeper">Goalkeeper</option>
+            <option value="Defender">Defender</option>
+            <option value="Midfielder">Midfielder</option>
+            <option value="Forward">Forward</option>
+          </select>
+        </div>
+
+        <article id="featuredPlayer" class="featured-card"></article>
+        <div id="results" class="results-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      Squad numbers seeded from recent 2026 squad references. Club and bio
+      fields are MVP data snapshots for product prototyping.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
