@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504" role="img" aria-label="Haiti flag">
+  <rect width="720" height="252" fill="#00209f"/>
+  <rect y="252" width="720" height="252" fill="#d21034"/>
+  <rect x="310" y="176" width="100" height="152" fill="#fff"/>
+  <polygon points="360,186 378,224 420,224 386,248 396,288 360,264 324,288 334,248 300,224 342,224" fill="#00209f"/>
+</svg>

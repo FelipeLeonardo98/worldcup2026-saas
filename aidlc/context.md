@@ -1,6 +1,6 @@
 # AI-DLC Context: World Scout SaaS MVP
 
-Last updated: 2026-06-15
+Last updated: 2026-06-15 (evening)
 
 ## Project Identity
 
@@ -38,6 +38,7 @@ AI-DLC alignment:
 - Numeric searches must match exact national-team shirt numbers.
 - Name searches should be flexible enough to match common aliases.
 - The MVP must support Brazil, France, Germany, and Argentina.
+- Expanded to support Curaçao, Haiti, Marrocos, Korea, Senegal, and Costa do Marfim.
 - The app must be deployable as a static frontend in AWS Amplify.
 
 ### Non-Functional Requirements
@@ -56,7 +57,7 @@ AI-DLC alignment:
 
 - Static frontend MVP.
 - Local player dataset in `script.js`.
-- Team selector for Brazil, France, Germany, and Argentina.
+- Team selector for Brazil, France, Germany, Argentina, Curaçao, Haiti, Marrocos, Korea, Senegal, and Costa do Marfim.
 - Per-team quick-search chips.
 - Team-themed visual styling and local flag assets.
 - AWS Amplify static hosting configuration.
@@ -77,7 +78,7 @@ AI-DLC alignment:
 - `index.html`: Static app shell, team selector, search input, result panels.
 - `styles.css`: Responsive UI, team themes, cards, search controls.
 - `script.js`: Team/player data and client-side search/render logic.
-- `assets/*.svg`: Local flag assets.
+- `assets/*.svg`: Local flag assets (brazil, france, germany, argentina, curacao, haiti, morocco, korea, senegal, ivorycoast).
 - `amplify.yml`: AWS Amplify static hosting build spec.
 - `README.md`: Project overview and source notes.
 - `aidlc/context.md`: AI-DLC project context and evolution log.
@@ -221,6 +222,17 @@ Browser verification note:
 
 - User requested an AI-DLC context file based on `awslabs/aidlc-workflows`.
 - Created `aidlc/context.md` to preserve base requirements, decisions, deployment context, validation history, risks, and future plan.
+
+### 2026-06-15: New Teams Expansion (feat/new-teams-1)
+
+- User requested addition of Curaçao, Haiti, Marrocos, Korea, Senegal, and Costa do Marfim.
+- Added SVG flag assets for all six new teams.
+- Added team themes in `styles.css`.
+- Added 26-player datasets for each new team in `script.js`.
+- Added team selector options in `index.html`.
+- Branch: `feat/new-teams-1`.
+- Total teams now: 10.
+- Total players now: 260.
 
 ## Current Risks
 

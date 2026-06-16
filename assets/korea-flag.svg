@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504" role="img" aria-label="South Korea flag">
+  <rect width="720" height="504" fill="#fff"/>
+  <circle cx="360" cy="252" r="108" fill="#c70000"/>
+  <path d="M360 144 A108 108 0 0 1 360 360 A54 54 0 0 1 360 144" fill="#003478"/>
+  <rect x="120" y="100" width="6" height="36" fill="#000" transform="rotate(45 120 100)"/>
+  <rect x="120" y="100" width="36" height="6" fill="#000" transform="rotate(45 120 100)"/>
+  <rect x="576" y="368" width="6" height="36" fill="#000" transform="rotate(45 576 368)"/>
+  <rect x="576" y="368" width="36" height="6" fill="#000" transform="rotate(45 576 368)"/>
+  <rect x="550" y="80" width="6" height="36" fill="#000" transform="rotate(-45 550 80)"/>
+  <rect x="550" y="80" width="36" height="6" fill="#000" transform="rotate(-45 550 80)"/>
+  <rect x="160" y="400" width="6" height="36" fill="#000" transform="rotate(-45 160 400)"/>
+  <rect x="160" y="400" width="36" height="6" fill="#000" transform="rotate(-45 160 400)"/>
+</svg>

@@ -50,6 +50,42 @@ body[data-team="argentina"] {
   --team-c: #1b6aa5;
 }
 
+body[data-team="curacao"] {
+  --team-a: #002b7f;
+  --team-b: #f6e100;
+  --team-c: #001a50;
+}
+
+body[data-team="haiti"] {
+  --team-a: #00209f;
+  --team-b: #d21034;
+  --team-c: #001060;
+}
+
+body[data-team="marrocos"] {
+  --team-a: #c1272d;
+  --team-b: #006233;
+  --team-c: #6b1417;
+}
+
+body[data-team="korea"] {
+  --team-a: #c70000;
+  --team-b: #003478;
+  --team-c: #1a1a2e;
+}
+
+body[data-team="senegal"] {
+  --team-a: #00853f;
+  --team-b: #ffd700;
+  --team-c: #005028;
+}
+
+body[data-team="ivorycoast"] {
+  --team-a: #f77f00;
+  --team-b: #009e60;
+  --team-c: #b86300;
+}
+
 button,
 input,
 select {
