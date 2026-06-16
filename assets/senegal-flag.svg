@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504" role="img" aria-label="Senegal flag">
+  <rect width="240" height="504" fill="#00853f"/>
+  <rect x="240" width="240" height="504" fill="#ffd700"/>
+  <rect x="480" width="240" height="504" fill="#d21034"/>
+  <polygon points="360,162 378,222 444,222 390,258 408,318 360,282 312,318 330,258 276,222 342,222" fill="#00853f"/>
+</svg>
